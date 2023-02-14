@@ -7,9 +7,10 @@ import Dashboard from "./scenes/dashboard";
 import Team from "./scenes/team";
 import Contacts from "./scenes/contacts";
 import Invocies from "./scenes/invoices";
+import Form from "./scenes/form";
 
 /* import Bar from "./scenes/bar"; */
-/* import Form from "./scenes/form"; */
+
 /* import Line from "./scenes/line"; */
 /* import Pie from "./scenes/pie"; */
 /* import FAQ from "./scenes/faq"; */
@@ -34,7 +35,7 @@ function App() {
               <Route path="/team" element={<Team/>}></Route>
               <Route path="/contacts" element={<Contacts/>}></Route>
               <Route path="/invoices" element={<Invocies/>}></Route>
-              {/*<Route path="/form" element={<Form/>}></Route>*/}
+              <Route path="/form" element={<Form/>}></Route>
               {/*<Route path="/bar" element={<Bar/>}></Route>*/}
               {/*<Route path="/pie" element={<Pie/>}></Route>*/}
               {/*<Route path="/line" element={<Line/>}></Route>*/}
