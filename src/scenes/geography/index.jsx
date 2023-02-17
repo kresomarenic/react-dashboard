@@ -1,4 +1,4 @@
-import { Box, colors, useTheme } from "@mui/material";
+import { Box, useTheme } from "@mui/material";
 import Header from "../../components/Header";
 import GeoChart from "../../components/GeoChart";
 import { tokens } from "../../theme";
