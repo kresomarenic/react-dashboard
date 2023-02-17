@@ -3,6 +3,14 @@ import { tokens } from "../theme";
 export const mockDataTeam = [
   {
     id: 1,
+    name: "Klea Marenić",
+    email: "klea.marenic@skole.hr",
+    age: 7,
+    phone: "(95)760-8045",
+    access: "user",
+  },
+  {
+    id: 2,
     name: "Jon Snow",
     email: "jonsnow@gmail.com",
     age: 35,
@@ -10,7 +18,7 @@ export const mockDataTeam = [
     access: "admin",
   },
   {
-    id: 2,
+    id: 3,
     name: "Cersei Lannister",
     email: "cerseilannister@gmail.com",
     age: 42,
@@ -18,7 +26,7 @@ export const mockDataTeam = [
     access: "manager",
   },
   {
-    id: 3,
+    id: 4,
     name: "Jaime Lannister",
     email: "jaimelannister@gmail.com",
     age: 45,
@@ -26,7 +34,7 @@ export const mockDataTeam = [
     access: "user",
   },
   {
-    id: 4,
+    id: 5,
     name: "Anya Stark",
     email: "anyastark@gmail.com",
     age: 16,
@@ -34,7 +42,7 @@ export const mockDataTeam = [
     access: "admin",
   },
   {
-    id: 5,
+    id: 6,
     name: "Daenerys Targaryen",
     email: "daenerystargaryen@gmail.com",
     age: 31,
@@ -42,7 +50,7 @@ export const mockDataTeam = [
     access: "user",
   },
   {
-    id: 6,
+    id: 7,
     name: "Ever Melisandre",
     email: "evermelisandre@gmail.com",
     age: 150,
@@ -50,7 +58,7 @@ export const mockDataTeam = [
     access: "manager",
   },
   {
-    id: 7,
+    id: 8,
     name: "Ferrara Clifford",
     email: "ferraraclifford@gmail.com",
     age: 44,
@@ -58,7 +66,7 @@ export const mockDataTeam = [
     access: "user",
   },
   {
-    id: 8,
+    id: 9,
     name: "Rossini Frances",
     email: "rossinifrances@gmail.com",
     age: 36,
@@ -66,7 +74,7 @@ export const mockDataTeam = [
     access: "user",
   },
   {
-    id: 9,
+    id: 10,
     name: "Harvey Roxie",
     email: "harveyroxie@gmail.com",
     age: 65,
